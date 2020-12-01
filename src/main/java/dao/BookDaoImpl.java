@@ -1,56 +1,55 @@
 package dao;
 
-import models.Author;
+import models.Book;
 import org.hibernate.Session;
 import utils.HibernateSessionFactoryUtil;
 
 import java.util.List;
 
-public class AuthorDaoImpl implements AuthorDao {
-    public Author findById(int id) {
-        return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(Author.class, id);
+public class BookDaoImpl implements BookDao {
+    @Override
+    public Book findById(int id) {
+        return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(Book.class, id);
     }
 
-    public void save(Author author) {
+    @Override
+    public void save(Book book) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
-        try {
+        try{
             session.beginTransaction();
-            session.save(author);
+            session.save(book);
             session.getTransaction().commit();
-        } finally {
+        } finally{
             session.close();
         }
-
     }
 
-    public void update(Author author) {
+    @Override
+    public void update(Book book) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
-        try {
+        try{
             session.beginTransaction();
-            session.update(author);
+            session.update(book);
             session.getTransaction().commit();
-
-        } finally {
+        } finally{
             session.close();
         }
-
     }
 
-    public void delete(Author author) {
+    @Override
+    public void delete(Book book) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
-        try {
+        try{
             session.beginTransaction();
-            session.delete(author);
+            session.delete(book);
             session.getTransaction().commit();
-
-        } finally {
+        } finally{
             session.close();
         }
-
     }
 
-    public List<Author> findAll() {
-        return (List<Author>) HibernateSessionFactoryUtil.getSessionFactory().openSession()
-                .createQuery("FROM Author author").list();
+    @Override
+    public List<Book> findAll() {
+        return HibernateSessionFactoryUtil.getSessionFactory().openSession().createQuery("From Book book").list();
     }
 }
