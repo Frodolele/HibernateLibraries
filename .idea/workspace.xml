@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efacc97b-9e5c-4df0-a839-1725ee49d732" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ReaderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ReaderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ReaderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libraries_With_Review_Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries_With_Review_Hibernate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ReaderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -77,7 +78,7 @@
       <updated>1606830637085</updated>
       <workItem from="1606830650254" duration="4132000" />
       <workItem from="1606852949688" duration="1592000" />
-      <workItem from="1606955621861" duration="1173000" />
+      <workItem from="1606955621861" duration="2452000" />
     </task>
     <task id="LOCAL-00001" summary="add BookService">
       <created>1606854242241</created>
@@ -86,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606854242241</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ReaderService">
+      <created>1606959082434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959082434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +102,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add BookService" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BookService" />
+    <MESSAGE value="add ReaderService" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ReaderService" />
   </component>
   <component name="WindowStateProjectService">
     <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1606955968004">
@@ -105,34 +114,34 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1606958976500" />
-    <state x="261" y="27" key="CommitChangelistDialog2" timestamp="1606854239966">
+    <state x="261" y="27" key="CommitChangelistDialog2" timestamp="1606959079741">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="261" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1606854239966" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606854562105">
+    <state x="261" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1606959079741" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606960037499">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606854562105" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606854562105">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606960037499" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606960037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606854562105" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606854562104">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606960037498" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606960037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606854562104" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606854562105">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606960037498" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606960037498">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606854562105" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606960037498" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1606833922788">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606833922788" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606854332425">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606959090023">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606854332425" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606959090023" />
     <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1606955613948">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

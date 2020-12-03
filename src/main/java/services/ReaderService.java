@@ -10,19 +10,19 @@ import java.util.List;
 public class ReaderService {
     private ReaderDaoImpl readerDao = new ReaderDaoImpl();
 
-    public Reader findAuthor(int id){
+    public Reader findReader(int id){
         return readerDao.findById(id);
     }
-    public void saveAuthor(Reader reader){
+    public void saveReader(Reader reader){
         readerDao.save(reader);
     }
-    public void updateAuthor(Reader reader){
+    public void updateReader(Reader reader){
         readerDao.update(reader);
     }
-    public void deleteAuthor(Reader reader){
+    public void deleteReader(Reader reader){
         readerDao.delete(reader);
     }
-    public List<Reader> findAllAuthors(){
+    public List<Reader> findAllReaders(){
         return readerDao.findAll();
     }
 }

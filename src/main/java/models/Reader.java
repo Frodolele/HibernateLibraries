@@ -13,9 +13,9 @@ public class Reader {
     private int id;
 
     @Column(name="full_name")
-    private String full_name;
+    private String fullName;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name = "books_readers",
             joinColumns = @JoinColumn(name="reader_id"),
@@ -35,12 +35,12 @@ public class Reader {
         this.id = id;
     }
 
-    public String getFull_name() {
-        return full_name;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setFull_name(String full_name) {
-        this.full_name = full_name;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public List<Book> getBooks() {
@@ -55,7 +55,7 @@ public class Reader {
     public String toString() {
         return "Reader{" +
                 "id=" + id +
-                ", full_name='" + full_name + '\'' +
+                ", full_name='" + fullName + '\'' +
                 ", books=" + books +
                 '}';
     }
