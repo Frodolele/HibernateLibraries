@@ -7,6 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
+// Singleton
 public class HibernateSessionFactoryUtil {
     private static SessionFactory sessionFactory;
 

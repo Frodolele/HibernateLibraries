@@ -1,6 +1,7 @@
 package models;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -20,10 +21,14 @@ public class Reader {
             joinColumns = @JoinColumn(name="reader_id"),
             inverseJoinColumns = @JoinColumn(name="book_id")
     )
-    private List<Book> books;
+    private List<Book> books = new ArrayList<>(); // better initialize in constructor
 
     public int getId() {
         return id;
+    }
+
+    public void addBook(Book book){
+        this.books.add(book);
     }
 
     public void setId(int id) {

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efacc97b-9e5c-4df0-a839-1725ee49d732" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ReaderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ReaderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/ReaderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Libraries_With_Review_Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries_With_Review_Hibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AuthorDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AuthorDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/HibernateSessionFactoryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateSessionFactoryUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -75,46 +76,71 @@
       <option name="presentableId" value="Default" />
       <updated>1606830637085</updated>
       <workItem from="1606830650254" duration="4132000" />
-      <workItem from="1606852949688" duration="1158000" />
+      <workItem from="1606852949688" duration="1592000" />
+      <workItem from="1606955621861" duration="1173000" />
     </task>
+    <task id="LOCAL-00001" summary="add BookService">
+      <created>1606854242241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606854242241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add BookService" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BookService" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1606853121359">
+    <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1606955968004">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606853121359" />
-    <state x="261" y="27" key="CommitChangelistDialog2" timestamp="1606853911219">
+    <state x="538" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606955968004" />
+    <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606958976501">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="261" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1606853911219" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606854130219">
+    <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1606958976500" />
+    <state x="261" y="27" key="CommitChangelistDialog2" timestamp="1606854239966">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606854130219" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606854130219">
+    <state x="261" y="27" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1606854239966" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606854562105">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606854130219" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606854130219">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606854562105" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606854562105">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606854130219" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606854130219">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606854562105" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606854562104">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606854130219" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606854562104" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606854562105">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606854562105" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1606833922788">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606833922788" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1606852960628">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606854332425">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1606852960628" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606854332425" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1606955613948">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1606955613948" />
+    <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606854293363">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1606854293363" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606831308070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
